@@ -77,14 +77,14 @@ WSGI_APPLICATION = 'projet.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'heroku_227c5bb90319efb',
-        'PORT': '3306',
-        'HOST': 'us-cdbr-east-04.cleardb.com',
-        'USER': 'bc7e83d1edea0a',
-        'PASSWORD': '84637450',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        #'ENGINE': 'django.db.backends.mysql',
+        #'NAME': 'heroku_227c5bb90319efb',
+        #'PORT': '3306',
+        #'HOST': 'us-cdbr-east-04.cleardb.com',
+        #'USER': 'bc7e83d1edea0a',
+        #'PASSWORD': '84637450',
     }
 }
 
